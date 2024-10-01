@@ -49,3 +49,27 @@
     border: 1px solid black;
 }
 
+.phone-transform {
+    transform: translateX(200px);
+}
+
+.button1{
+    transform: translate(10px, 10px);
+}
+
+.button2{
+    transform: translate(10px,20px);
+}
+
+.button3{
+    transform: translate(10px,30px);
+}
+
+.row2 {
+    transform: translate(30%, -100%);
+}
+
+.row3 {
+    transform: translate(60%, -200%);
+}
+
