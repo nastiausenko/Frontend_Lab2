@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Усенко А.В. ІМ-23</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            font-size: 14pt;
+            color: #160059;
+        }
+  
+        td {
+            border: 2px solid black;
+            width: 125px;
+            height: 40px;
+            text-align: center;
+        }
+
+        tr:first-child{
+            background-color: #068f8f;
+        }
+
+        tr:first-child:hover{
+            background-color: #8F3806;
+            color: #8F8306;
+        }
+
+        tr:nth-child(2){
+            background-color: #f5f506;
+        }
+
+        tr:nth-child(2):hover{
+            background-color: #49068F;
+            color: #E0CE09;
+        }
+    </style>
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <table>
+        <tr>
+            <td rowspan="2">Усенко</td>
+            <td colspan="2">Анастасія</td>
+            <td>Вячеславівна</td>
+            <td></td>
+        </tr>
 
+        <tr>
+            <td rowspan="2"></td>
+            <td rowspan="2">ІМ-23</td>
+            <td rowspan="3">ЛР-2</td>
+            <td>Варіант 6</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
 </body>
 </html>
