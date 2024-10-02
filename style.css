@@ -1,5 +1,5 @@
 .phone{
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 200px;
     background-color: #D6E3BC;
@@ -50,7 +50,7 @@
 }
 
 .phone-transform {
-    transform: translateX(200px);
+    transform: translate(200px, -242px);
 }
 
 .button1{
